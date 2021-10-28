@@ -1,0 +1,22 @@
+/*Feuille de style*/
+
+body {
+    width: auto;
+    margin: 20px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:cornsilk;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 5rem;
+}
+
+footer {
+    background-color: cornsilk;
+}
