@@ -1,22 +1,56 @@
 /*Feuille de style*/
 
+/* couleur de la page */
+/*
+--rich-black-fogra-39: #0a100dff;
+--sage: #b9baa3ff;
+--timberwolf: #d6d5c9ff;
+--auburn: #a22c29ff;
+--burnt-umber: #902923ff
+
+#edede8ff font de la  page 
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #edede8ff;
+}
+
 body {
     width: auto;
+    background-color: #edede8ff;
     margin: 20px;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-header {
-    background-color:cornsilk;
+/* Header */
+
+.container{
+    background-color: #d6d5c9ff;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    padding: 5rem;
+header, #toggleMobileMenu, .navbar-brand, #nav{
+    background-color: #d6d5c9ff;
 }
 
+span, .nav-link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: #d6d5c9ff;
+    color:#a22c29ff; /* marche pas sur le menu */
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+/* rajouter des effets avec le passage de la souris */
+
+/* footer */
 footer {
-    background-color: cornsilk;
+    background-color:#d6d5c9ff;
 }
