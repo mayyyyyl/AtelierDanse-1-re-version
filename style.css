@@ -17,29 +17,25 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: #edede8ff;
 }
 
 body {
     width: auto;
-    background-color: #edede8ff;
     margin: 20px;
+    background-color: #edede8ff;
 }
 
 /* Header */
 
-.container{
-    background-color: #d6d5c9ff;
-}
-
-header, #toggleMobileMenu, .navbar-brand, #nav{
+header{
+    padding: 0;
+    margin: 0;
     background-color: #d6d5c9ff;
 }
 
 span, .nav-link{
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
-    background-color: #d6d5c9ff;
     color:#a22c29ff; /* marche pas sur le menu */
 }
 
@@ -52,5 +48,21 @@ img {
 
 /* footer */
 footer {
-    background-color:#d6d5c9ff;
+    background-color: #d6d5c9ff
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size:small;
+    color:#a22c29ff;
+}
+
+#footer-col{
+    display: inline-flex;
+}
+
+#footer-row2 > p{
+    font-size: 9px;
+    text-align: center;
 }
